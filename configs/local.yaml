@@ -27,7 +27,7 @@ defaults:
     add_ld: yes
 force:
     # I will create some random dir under here 
-    build_tmpdir_base: $PWD
+    build_tmpdir_base: $TMPDIR/hpc-container-wrapper-tmpdir
     conda_arch: 'Linux-x86_64'
     max_num_cpus: 4
     # No logic currently to refer to other variables here
